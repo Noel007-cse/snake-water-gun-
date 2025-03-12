@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake Water gun game</title>
+    <link rel="icon" href="snake2.jpg" type="jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+       <h1><span class="snake-text">SNAKE</span> -
+        <span class="water-text">WATER</span> -
+        <span class="gun-text">GUN</span></h1>
+       <div class="choices">
+       <button id="btn1" onclick="play('snake')">🐍</button>
+       <button id="btn2" onclick="play('water')">🌊</button>
+       <button id="btn3" onclick="play('gun')">🔫</button>
+         </div>
+         <div id="PlayerResult">Player: </div>
+         <div id="Computerresult">Computer:</div>
+         <div id="result">The result is TIE</div>
+         <div class="score">Player score:
+            <span id="playerScore">0</span>
+        </div>
+        <div class="score">Computer score:
+            <span id="ComputerScore">0</span>
+        </div>
+</body>
+<script src="index.js"></script>
+</html>
